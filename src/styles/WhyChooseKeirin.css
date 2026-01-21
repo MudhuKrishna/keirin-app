@@ -1,0 +1,144 @@
+.why-choose-keirin {
+  padding: 5rem 2rem;
+  background-color: #f9fafb;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.why-container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.why-choose-keirin h2 {
+  font-size: 2.8rem;
+  color: #003366;
+  margin-bottom: 0.5rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+.why-subtitle {
+  text-align: center;
+  color: #666;
+  font-size: 1.1rem;
+  margin-bottom: 3.5rem;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.reasons-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 2.5rem;
+  margin-bottom: 3.5rem;
+}
+
+.reason-card {
+  padding: 2.5rem;
+  background: white;
+  border-radius: 8px;
+  border: 1px solid #e5e5e5;
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+.reason-card:hover {
+  border-color: #003366;
+  box-shadow: 0 8px 24px rgba(0, 51, 102, 0.15);
+  transform: translateY(-4px);
+}
+
+.reason-number {
+  position: absolute;
+  top: 1.5rem;
+  right: 1.5rem;
+  width: 40px;
+  height: 40px;
+  background: linear-gradient(135deg, #003366 0%, #0052a3 100%);
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 1.3rem;
+}
+
+.reason-card h3 {
+  font-size: 1.3rem;
+  color: #003366;
+  margin-bottom: 1rem;
+  font-weight: 600;
+  padding-right: 50px;
+}
+
+.reason-card p {
+  color: #666;
+  font-size: 0.95rem;
+  line-height: 1.7;
+}
+
+.why-cta {
+  background: linear-gradient(135deg, #e8f1f9 0%, #f0f6fc 100%);
+  padding: 3rem;
+  border-radius: 12px;
+  text-align: center;
+  border: 1px solid #d4e5f0;
+}
+
+.why-cta p {
+  color: #333;
+  font-size: 1.05rem;
+  line-height: 1.8;
+  margin-bottom: 2rem;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.why-cta .cta-button {
+  background-color: #003366;
+  color: white;
+  border: none;
+  padding: 0.9rem 2.5rem;
+  font-size: 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  display: inline-block;
+}
+
+.why-cta .cta-button:hover {
+  background-color: #002244;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 51, 102, 0.2);
+}
+
+@media (max-width: 768px) {
+  .why-choose-keirin {
+    padding: 3rem 1rem;
+  }
+
+  .why-choose-keirin h2 {
+    font-size: 2rem;
+  }
+
+  .reasons-grid {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .reason-card {
+    padding: 2rem;
+  }
+
+  .reason-card h3 {
+    padding-right: 0;
+  }
+
+  .why-cta {
+    padding: 2rem;
+  }
+}

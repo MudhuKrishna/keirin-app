@@ -1,0 +1,116 @@
+.staff-augmentation {
+  padding: 60px 20px;
+  background: #f9f9f9;
+}
+
+.staff-augmentation .container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.staff-augmentation h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+
+.staff-augmentation .intro {
+  text-align: center;
+  font-size: 1.1rem;
+  color: #666;
+  margin-bottom: 2rem;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.staff-augmentation h3 {
+  font-size: 1.8rem;
+  color: #333;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.staff-augmentation > .container > p {
+  color: #666;
+  margin-bottom: 1.5rem;
+  line-height: 1.7;
+}
+
+.benefits-list {
+  list-style-position: inside;
+  color: #666;
+  margin-bottom: 2rem;
+}
+
+.benefits-list li {
+  margin-bottom: 0.75rem;
+}
+
+.keirin-approach {
+  background: white;
+  padding: 2rem;
+  border-radius: 8px;
+  margin-top: 2rem;
+}
+
+.keirin-approach h3 {
+  color: #667eea;
+}
+
+.keirin-approach h4 {
+  color: #667eea;
+  font-size: 1.3rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.keirin-approach p {
+  color: #666;
+  margin-bottom: 1.5rem;
+  line-height: 1.7;
+}
+
+.approach-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.approach-card {
+  background: #f9f9f9;
+  padding: 1.5rem;
+  border-radius: 8px;
+  border-left: 3px solid #667eea;
+}
+
+.approach-card h5 {
+  color: #667eea;
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+}
+
+.approach-card p {
+  color: #666;
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+.conclusion {
+  font-style: italic;
+  background: #e8eaf6;
+  padding: 1rem;
+  border-radius: 5px;
+}
+
+@media (max-width: 768px) {
+  .staff-augmentation h2 {
+    font-size: 2rem;
+  }
+  
+  .approach-grid {
+    grid-template-columns: 1fr;
+  }
+}
