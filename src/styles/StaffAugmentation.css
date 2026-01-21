@@ -33,9 +33,11 @@
 }
 
 .staff-augmentation > .container > p {
-  color: #666;
+  color: #555;
   margin-bottom: 1.5rem;
-  line-height: 1.7;
+  line-height: 1.8;
+  font-weight: 500;
+  letter-spacing: 0.2px;
 }
 
 .benefits-list {
@@ -67,9 +69,11 @@
 }
 
 .keirin-approach p {
-  color: #666;
+  color: #555;
   margin-bottom: 1.5rem;
-  line-height: 1.7;
+  line-height: 1.8;
+  font-weight: 500;
+  letter-spacing: 0.2px;
 }
 
 .approach-grid {
@@ -93,9 +97,11 @@
 }
 
 .approach-card p {
-  color: #666;
+  color: #555;
   font-size: 0.95rem;
-  line-height: 1.6;
+  line-height: 1.8;
+  font-weight: 500;
+  letter-spacing: 0.2px;
 }
 
 .conclusion {

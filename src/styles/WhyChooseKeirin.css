@@ -19,12 +19,15 @@
 
 .why-subtitle {
   text-align: center;
-  color: #666;
+  color: #555;
   font-size: 1.1rem;
   margin-bottom: 3.5rem;
   max-width: 700px;
   margin-left: auto;
   margin-right: auto;
+  font-weight: 500;
+  line-height: 1.8;
+  letter-spacing: 0.2px;
 }
 
 .reasons-grid {
@@ -41,42 +44,66 @@
   border: 1px solid #e5e5e5;
   transition: all 0.3s ease;
   position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 280px;
+  cursor: pointer;
+  overflow: hidden;
 }
 
 .reason-card:hover {
   border-color: #003366;
-  box-shadow: 0 8px 24px rgba(0, 51, 102, 0.15);
-  transform: translateY(-4px);
-}
-
-.reason-number {
-  position: absolute;
-  top: 1.5rem;
-  right: 1.5rem;
-  width: 40px;
-  height: 40px;
+  box-shadow: 0 12px 32px rgba(0, 51, 102, 0.2);
+  transform: translateY(-6px);
   background: linear-gradient(135deg, #003366 0%, #0052a3 100%);
-  color: white;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-weight: 700;
-  font-size: 1.3rem;
 }
 
-.reason-card h3 {
+.card-content {
+  position: relative;
+  min-height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.reason-title {
   font-size: 1.3rem;
   color: #003366;
-  margin-bottom: 1rem;
+  margin: 0;
   font-weight: 600;
-  padding-right: 50px;
+  opacity: 1;
+  transition: all 0.4s ease;
+  line-height: 1.5;
+  padding: 0 1rem;
 }
 
-.reason-card p {
-  color: #666;
+.reason-description {
+  color: #555;
   font-size: 0.95rem;
-  line-height: 1.7;
+  line-height: 1.8;
+  font-weight: 500;
+  letter-spacing: 0.2px;
+  margin: 0;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: all 0.4s ease;
+  position: absolute;
+  padding: 0 1rem;
+}
+
+.reason-card:hover .reason-title {
+  opacity: 0;
+  transform: translateY(-20px);
+  color: #ffffff;
+}
+
+.reason-card:hover .reason-description {
+  opacity: 1;
+  transform: translateY(0);
+  color: #ffffff;
 }
 
 .why-cta {
@@ -95,6 +122,8 @@
   max-width: 800px;
   margin-left: auto;
   margin-right: auto;
+  font-weight: 500;
+  letter-spacing: 0.2px;
 }
 
 .why-cta .cta-button {

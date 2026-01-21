@@ -42,9 +42,11 @@ const WhyChooseKeirin: React.FC = () => {
         <div className="reasons-grid">
           {reasons.map((reason, index) => (
             <div key={index} className="reason-card">
-              <div className="reason-number">{index + 1}</div>
-              <h3>{reason.title}</h3>
-              <p>{reason.description}</p>
+             
+              <div className="card-content">
+                <h3 className="reason-title">{reason.title}</h3>
+                <p className="reason-description">{reason.description}</p>
+              </div>
             </div>
           ))}
         </div>

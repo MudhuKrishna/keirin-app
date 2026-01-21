@@ -19,12 +19,15 @@
 
 .industries-subtitle {
   text-align: center;
-  color: #666;
+  color: #555;
   font-size: 1.1rem;
   margin-bottom: 3.5rem;
   max-width: 600px;
   margin-left: auto;
   margin-right: auto;
+  font-weight: 500;
+  line-height: 1.8;
+  letter-spacing: 0.2px;
 }
 
 .industries-grid {

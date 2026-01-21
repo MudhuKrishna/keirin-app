@@ -31,7 +31,7 @@ const Services: React.FC = () => {
               <div className="service-icon">{service.icon}</div>
               <h3>{service.title}</h3>
               <p>{service.description}</p>
-              <a href="#" className="service-link">Learn more →</a>
+              <button onClick={() => console.log(`Clicked: ${service.title}`)} className="service-link">Learn more →</button>
             </div>
           ))}
         </div>

@@ -22,10 +22,12 @@
 
 .contact-header p {
   font-size: 1rem;
-  color: #666;
+  color: #555;
   max-width: 600px;
   margin: 0 auto;
-  line-height: 1.6;
+  line-height: 1.8;
+  font-weight: 500;
+  letter-spacing: 0.2px;
 }
 
 .contact-content {

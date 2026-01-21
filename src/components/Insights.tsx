@@ -35,7 +35,7 @@ const Insights: React.FC = () => {
           ))}
         </div>
         <div className="insights-footer">
-          <a href="#" className="view-all-link">Explore all capabilities →</a>
+          <button onClick={() => console.log('View all capabilities')} className="view-all-link">Explore all capabilities →</button>
         </div>
       </div>
     </section>

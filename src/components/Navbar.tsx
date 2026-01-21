@@ -5,15 +5,40 @@ const Navbar: React.FC = () => {
   return (
     <nav className="navbar">
       <div className="nav-container">
-        <div className="logo">Keirin</div>
+        <div className="navbar-logo">
+          <span className="logo">Keirin</span>
+        </div>
+        
         <ul className="nav-menu">
-          <li><a href="#services">Services</a></li>
-          <li><a href="#why-keirin">Why Keirin</a></li>
-          <li><a href="#industries">Industries</a></li>
-          <li><a href="#gaming">Gaming</a></li>
-          <li><a href="#contact">Contact</a></li>
+          <li 
+            className="nav-item"
+          >
+            <a href="#services" className="nav-link">Services</a>
+          </li>
+          
+          <li className="nav-item">
+            <a href="#why-keirin" className="nav-link">Why Keirin</a>
+          </li>
+          
+          <li className="nav-item">
+            <a href="#industries" className="nav-link">Industries</a>
+          </li>
+          
+          <li className="nav-item">
+            <a href="#insights" className="nav-link">Insights</a>
+          </li>
+          
+          <li className="nav-item">
+            <a href="#gaming" className="nav-link">Gaming</a>
+          </li>
+           <li className="nav-item">
+            <a href="#contact" className="nav-link">Contact Us</a>
+          </li>
         </ul>
-        <button className="contact-btn">Contact Us</button>
+{/* 
+        <div className="nav-right">
+          <button className="contact-btn">Contact Us</button>
+        </div> */}
       </div>
     </nav>
   );

@@ -20,12 +20,14 @@
 .gaming-intro {
   text-align: center;
   font-size: 1.1rem;
-  color: #666;
+  color: #555;
   margin-bottom: 3.5rem;
   max-width: 800px;
   margin-left: auto;
   margin-right: auto;
-  line-height: 1.7;
+  line-height: 1.8;
+  font-weight: 500;
+  letter-spacing: 0.2px;
 }
 
 .gaming-grid {
@@ -86,8 +88,10 @@
 
 
 .gaming-card p {
-  color: #666;
-  line-height: 1.7;
+  color: #555;
+  line-height: 1.8;
+  font-weight: 500;
+  letter-spacing: 0.2px;
 }
 
 .gaming-conclusion {
